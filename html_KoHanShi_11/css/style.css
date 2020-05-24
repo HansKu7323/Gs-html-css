@@ -1,0 +1,302 @@
+body{
+  font-size: 16px;
+  width: 1080px;
+  margin:0 auto;
+}
+
+h1{
+  font-size: 24px;
+  text-align: center;
+  color: #ffd61a;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+
+h2{
+  font-size: 18px;
+  text-align: center;
+  color: #222222;
+  margin-bottom: 60px;
+}
+
+/* header */
+nav{
+  font-size: 18px;
+}
+.header_wrapper{
+  width: 1080px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 121px;
+}
+.nav_list{
+  display: flex;
+}
+.nav_item{
+  margin: 30px;
+}
+.nav_item>a{
+  color: #222222;
+  text-decoration: none;
+}
+.mainvisual{
+  width: 1080px;
+  height: 400px;
+  background: url("../img/mainbg.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main_title{
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 155px;
+}
+.main_subtitle{
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 30px;
+}
+
+
+
+/* about */
+.about_wrapper{
+  width: 640px;
+  margin: auto;
+  text-align: center;
+  line-height: 1.75;
+}
+.about_h2{
+  margin-bottom: 50px;
+}
+.about1{
+  margin-bottom: 30px;
+}
+.about2{
+  margin-bottom: 80px;
+}
+.wrapper{
+  width: 1080px;
+}
+.about_list{
+  width: 1080px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+.about_item{
+  width: 25%;
+}
+
+/* course */
+.course_title{
+  width: 640px;
+  margin: auto;
+}
+.course_title>h1{
+  color: #222222;
+}
+.course_title>h2{
+  line-height: 1.75;
+  font-size: 16px;
+}
+.course {
+  color: #222222;
+}
+.course_wrapper{
+  width: 1080px;
+  display:flex;
+  justify-content: space-between;
+}
+.course_wrapper:nth-child(odd){
+  flex-direction: row-reverse;
+}
+.desc{
+  /* flex:1; */
+  width: calc(100% - 540px - 50px);
+}
+.pic>img{
+  width: 540px;
+}
+.desc>h3{
+  margin: 120px 0 40px 0;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+}
+
+
+/* NEWS */
+.news_wrapper{
+  width: 640px;
+  /* margin: auto; */
+  justify-content: center;
+}
+.news_list{
+  display: flex;
+  /* justify-content: space-between; */
+ 
+}
+.news_item{
+  width: 300px;
+  margin-left: 30px;
+}
+.news_date{
+  margin-top: 30px;
+  margin-bottom: 24px;
+}
+.news_desc{
+  line-height: 2;
+}
+
+/* More */
+.box{
+  display: block;
+  width: 300px;
+  height: 60px;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  line-height: 60px;
+  background-color: #ffd61a;
+  margin: 60px auto;
+  text-decoration: none;
+}
+.box:hover{
+  background-color: blue;
+  opacity: 0.5;
+}
+
+/* ACCESS */
+.access_section{
+  background-color:#f6f6f6;
+}
+.access {
+  color: #222222;
+  padding-top: 60px;
+}
+.access_wrapper{
+  width: 640px;
+  margin: auto;
+}
+iframe{
+  margin-bottom: 60px;
+}
+.access_wrapper>p{
+  margin-bottom: 30px;
+}
+td{
+  padding: 0 0 30px 30px;
+}
+.td_last{
+  padding-bottom: 60px;
+}
+
+
+/* CONTACT */
+.contact {
+  color: #222222;
+}
+.contact_text{
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.form_wrapper1{
+  width: 640px;
+  margin: auto;
+  margin-bottom: 70px;
+  text-align: center;
+  
+}
+.form_wrapper2{
+  width: 640px;
+  margin: auto;
+  border: 1px solid gray;
+}
+.form_inner{
+  display: flex;
+  margin-top: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.form_title{
+  width: 200px;
+  margin-bottom: 16px;
+ /* border: 1px solid gray; */
+}
+.form_item{
+  width: 400px;
+  margin-bottom: 16px;
+  /* border: 1px solid gray; */
+}
+.sub{
+  display: block;
+  width: 300px;
+  height: 60px;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  line-height: 60px;
+  background-color: #ffd61a;
+  margin: 30px auto ;
+  border: none;
+}
+.sub:hover{
+  background-color: blue;
+  opacity: 0.5;
+}
+
+input[type*="checkbox"]{
+  margin-bottom: 24px;
+}
+.form_parts{
+  width: 100%;
+  border: 1px solid #cacaca;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+select{
+  width: 100%;
+  font-size: 16px;
+  }
+  textarea{
+    resize:none
+    }
+
+.top{
+  display: block;
+  width: 300px;
+  height: 60px;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  line-height: 60px;
+  background-color: #ffd61a;
+  margin: 0 auto;
+  border: none;
+  text-decoration: none;
+  margin-top: 100px;
+}
+.top:hover{
+  background-color: blue;
+  opacity: 0.5;
+}
+
+
+/* footer */
+footer{
+  background-color:#707070;
+  padding: 12px 0;
+  color: #fff;
+  text-align: center;
+}
+
